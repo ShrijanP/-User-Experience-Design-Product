@@ -6,7 +6,7 @@ const path = require('path');
 const User = require("./api/models/User");
 require("dotenv").config();
 
-// middleware
+// middleware using cors
 app.use(
   cors({
     origin: function (origin, callback) {
